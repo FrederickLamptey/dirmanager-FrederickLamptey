@@ -17,3 +17,10 @@ program
   .parse(process.argv);
 
 const options = program.opts();
+
+async function listDirContents(filepath: string) {
+  try {
+  } catch (error) {
+    console.error('Error occurred while reading the directory!', error);
+  }
+}
