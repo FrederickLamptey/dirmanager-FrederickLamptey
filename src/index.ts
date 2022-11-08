@@ -39,3 +39,8 @@ function createDir(filepath: string) {
     console.log('The directory has been created successfully');
   }
 }
+
+function createFile(filepath: string) {
+  fs.openSync(filepath, 'w');
+  console.log('An empty file has been created');
+}
