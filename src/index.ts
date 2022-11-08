@@ -1,5 +1,7 @@
 const { Command } = require('commander');
 const figlet = require('figlet');
+const fs = require('fs');
+const path = require('path');
 
 const program = new Command();
 
